@@ -5,8 +5,8 @@ const WorkItems = ({ item }) => {
     <div className="work-card" key={item.id}>
       <img src={item.image} alt="" className="work-img" />
       <h3 className="work-title">{item.title}</h3>
-      <a href="https://vercel.com/shwetanegi30" className="work-btn">
-        Live <i className="bx bx-right-arrow-alt work-btn-icon"></i>
+      <a href={item.Live} className="work-btn">
+        Live
       </a>
     </div>
   );

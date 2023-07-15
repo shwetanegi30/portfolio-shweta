@@ -1,6 +1,5 @@
 .work-section {
   text-align: center;
-  /* background-image: url("https://www.transparenttextures.com/patterns/blizzard.png"); */
   background-color: #0a192f;
   padding-top: 105px;
   padding-bottom: 100px;
@@ -37,7 +36,6 @@
   color: #ccd6f6;
   padding: .25rem .75rem;
   border: 1px solid #788492;
-  ;
   font-weight: 600;
   border-radius: .25rem;
   text-transform: capitalize;
@@ -57,8 +55,7 @@
 }
 
 .work-card {
-  /* background-color: #ccd6f6; */
-  background-color: #bdc3c7;
+  background: linear-gradient(90deg, #f8c9d0a6, #f5f5f585);
   border: 1px solid rgb(0, 0, 0, 0.1);
   padding: 1.25rem;
   border-radius: 1rem;
@@ -83,8 +80,7 @@
   color: pink;
   font-size: 20px;
   text-decoration: none;
-  /* display: flex;
-    align-items: center; */
+  font-weight: 500;
   column-gap: .25rem;
 }
 
@@ -128,6 +124,6 @@
   }
 
   .work-btn {
-    color: #788492;
+    color: #781425;
   }
 }

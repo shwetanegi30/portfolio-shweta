@@ -6,16 +6,16 @@ import "./contact.css";
 function Contact() {
   return (
     <section id="footer">
-      <div class="container">
-        <div class="header">
-          <div class="heading">Contact Me</div>
-          <div class="supportingText">
+      <div className="container">
+        <div className="header">
+          <div className="heading">Contact Me</div>
+          <div className="supportingText">
             Hire me to add value to your dream project.
           </div>
         </div>
 
-        <div class="contentBox">
-          <div class="box">
+        <div className="contentBox">
+          <div className="box">
             <a
               className="color-white"
               href="https://wa.me/7895930224"
@@ -25,7 +25,7 @@ function Contact() {
               <FaWhatsapp size={40} />
             </a>
           </div>
-          <div class="box">
+          <div className="box">
             <a
               className="color-white"
               href="https://www.instagram.com/_fake_illlusion_/"
@@ -35,7 +35,7 @@ function Contact() {
               <FaInstagram size={40} />
             </a>
           </div>
-          <div class="box">
+          <div className="box">
             <a
               className="color-white"
               href="mailto:shwetaa3007@gmail.com"
@@ -45,7 +45,7 @@ function Contact() {
               <HiOutlineMail size={40} />
             </a>
           </div>
-          <div class="box">
+          <div className="box">
             <a
               className="color-white"
               href="https://www.linkedin.com/in/shweta-negi-1809bb1b7/"

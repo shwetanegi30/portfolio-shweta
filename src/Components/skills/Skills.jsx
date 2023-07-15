@@ -14,7 +14,6 @@ function Skills() {
         <div>
           <p className="heading">My Skills</p>
           <p className="supporting-text">
-            {" "}
             These are the technologies I've worked with
           </p>
         </div>

@@ -16,10 +16,10 @@ function Home() {
               <h1 className="name"> Shweta negi </h1>
               <h2 className="about-you"> I am a web developer </h2>
 
-              <a class="btn btn-outline-primary" href="#portfolio">
+              <a className="btn btn-outline-primary" href="#portfolio">
                 View Portfolio
               </a>
-              <a class="btn btn-outline-dark" href="#footer">
+              <a className="btn btn-outline-dark" href="#footer">
                 Hire Me!
               </a>
             </div>
